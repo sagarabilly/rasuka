@@ -33,7 +33,7 @@ Command-line Arguments<br>
 
 Example usage:
 ```cargo run -- -p iris.csv -x "petal width (cm)" -y "petal length (cm)" scatter```<br>
-The example result is saved under the name scatter-chart.svg
+The plot visulaization result will be saved under .svg format
 
 # Contributing
 Feel free to open issues or submit pull requests if you have suggestions or improvements.<br>
