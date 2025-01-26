@@ -23,12 +23,12 @@ Describe: Outputs descriptive statistics (mean, standard deviation, etc.) for th
 ```cargo run -- -p path/to/your/data.csv -x column_name_x -y column_name_y --scatter```
 
 # Usage
-Command-line Arguments
--p or --path: Path to the dataset file (CSV format).
--x or --paramx: The column name for the x-axis parameter.
--y or --paramy: The column name for the y-axis parameter.
---scatter: Generates a scatter plot of the data.
---barplot: Generates a bar plot of the data.
+Command-line Arguments<br>
+-p or --path: Path to the dataset file (CSV format).<br>
+-x or --paramx: The column name for the x-axis parameter.<br>
+-y or --paramy: The column name for the y-axis parameter.<br>
+--scatter: Generates a scatter plot of the data.<br>
+--barplot: Generates a bar plot of the data.<br>
 --describe: Outputs descriptive statistics for the specified data column.
 
 Example usage:
