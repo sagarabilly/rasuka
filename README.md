@@ -32,7 +32,8 @@ Command-line Arguments<br>
 --describe: Outputs descriptive statistics for the specified data column.
 
 Example usage:
-```cargo run -- -p data.csv -x column_x -y column_y --scatter```
+```cargo run -- -p iris.csv -x "petal width (cm)" -y "petal length (cm)" scatter```<br>
+The example result is saved under the name scatter-chart.svg
 
 # Contributing
 Feel free to open issues or submit pull requests if you have suggestions or improvements.<br>
