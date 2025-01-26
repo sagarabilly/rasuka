@@ -1,5 +1,5 @@
 # Rasuka (Rust Kaiseki)
-Rasuka is a command-line application designed to help you analyze data by generating visualizations and performing descriptive statistics. It supports generating scatter plots, bar plots, and describing data.
+Rasuka is a command-line application designed to help you analyze data by generating visualizations and performing descriptive statistics. Since Rust is faster than python, it will be time efficient for quick analyze a data. It supports generating scatter plots, barplots, and describing data.
 
 This is the first Rust program I made, and it’s a project I created to learn and explore the Rust programming language. 
 It is a work in progress, and I welcome contributions, feedback, or suggestions as I am still new in rust programming. 
@@ -33,7 +33,14 @@ Command-line Arguments<br>
 
 Example usage:
 ```cargo run -- -p iris.csv -x "petal width (cm)" -y "petal length (cm)" scatter```<br>
-The plot visulaization result will be saved under .svg format
+```cargo run -- -p iris.csv -x "petal width (cm)" -y "petal length (cm)" barplot```<br>
+The plot visulaization result will be saved under .svg format<br>
+
+As for now, the reuslt of the visualization will look something like this
+![Alt text](https://github.com/sagaraBilly/rasuka/example_result/iris-scatter.png)
+![Alt text](https://github.com/sagaraBilly/rasuka/example_result/iris-barplot.png)
+
+as for the barplot, the y-axis on the visulaization is the frequency and the passed -y parameter will become the group colour of the bars. 
 
 # Contributing
 Feel free to open issues or submit pull requests if you have suggestions or improvements.<br>
