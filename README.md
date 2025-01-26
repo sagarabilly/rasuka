@@ -37,8 +37,8 @@ Example usage:
 The plot visulaization result will be saved under .svg format<br>
 
 As for now, the reuslt of the visualization will look something like this
-![Alt text](https://github.com/sagaraBilly/rasuka/example_result/iris-scatter.png)
-![Alt text](https://github.com/sagaraBilly/rasuka/example_result/iris-barplot.png)
+![Alt text](example_result/iris-barplot.png)
+![Alt text](example_result/iris-barplot.png)
 
 as for the barplot, the y-axis on the visulaization is the frequency and the passed -y parameter will become the group colour of the bars. 
 
