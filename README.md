@@ -11,7 +11,7 @@ Describe: Outputs descriptive statistics (mean, standard deviation, etc.) for th
 
 # Installation
 1. Clone this repository to your local machine:<br>
-```git clone https://github.com/yourusername/rasuka.git```
+```git clone https://github.com/sagarabilly/rasuka.git```
 
 2. Change to the project directory:<br>
 ```cd rasuka```
