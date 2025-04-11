@@ -45,7 +45,7 @@ As for the barplot, the y-axis on the visulaization is the frequency and the pas
 
 # Contributing
 Feel free to open issues or submit pull requests if you have suggestions or improvements.<br>
-Since this is my first Rust project, please go easy on me and any feedback would be greatly appreciated!
+Since this is my first Rust project and it is a simple one, any feedback would be greatly appreciated!
 
 License
 Distributed under the MIT License. See LICENSE for more information.
